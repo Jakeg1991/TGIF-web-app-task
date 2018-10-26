@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: font-family: 'Ubuntu', sans-serif;
+}
+
+.Logo {
+    width: 150px
+}
+
+.inline { float:left;
+    
+}
+
+
+.scrollable {
+    height: 600
+}
+
+h4 {
+text-align: left
+}
+
+.jumbotron{
+    min-height: 520px;}
+
+.LogoMain {
+    width: 350px
+}
+}
+
+.Mail {
+    width: 20px
+}
+
+.mailIcon {
+    width: 20px;
+}
