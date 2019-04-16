@@ -90,3 +90,8 @@ background-color: rgba(0, 0, 0, 0.36);
 .btn {
     font-size: 1.2em
 }
+
+div {
+      text-align: justify;
+  text-justify: inter-word;
+}
