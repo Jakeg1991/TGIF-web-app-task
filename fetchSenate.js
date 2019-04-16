@@ -1,5 +1,7 @@
 window.onload = fetch
 
+
+
 fetch("https://api.propublica.org/congress/v1/113/senate/members.json", {
         method: 'GET',
         headers: {
@@ -13,6 +15,7 @@ fetch("https://api.propublica.org/congress/v1/113/senate/members.json", {
         console.log(data)
         createMainTable(data.results[0].members);
     })
+
 
 function createMainTable(data) {
 

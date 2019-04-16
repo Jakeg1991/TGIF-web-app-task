@@ -2,10 +2,16 @@
 
 body {
   font-family: font-family: 'Ubuntu', sans-serif;
+background-image:url(Assets/congress.jpg);
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      background-attachment: fixed;
 }
 
 .Logo {
-    width: 150px
+    width: 300px;
+    margin: 10px;
 }
 
 .inline { float:left;
@@ -21,11 +27,22 @@ h4 {
 text-align: left
 }
 
+h5 {
+color: white;
+background-color: rgba(0, 0, 0, 0.36);
+    display: inline-block;
+    padding: 10px;
+        font-size: 1.2em
+}
+
+
 .jumbotron{
-    min-height: 520px;}
+    min-height: 520px;
+    margin:20px}
 
 .LogoMain {
-    width: 350px
+    width: 350px;
+    margin: 40px
 }
 }
 
@@ -35,4 +52,41 @@ text-align: left
 
 .mailIcon {
     width: 20px;
+}
+
+.navBar {
+    background-color: 
+}
+
+h1 { 
+  display: block;
+  font-size: 3.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.filterOptions {
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.36);
+    color: white;
+}
+
+.card-footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+
+background-color: rgba(0, 0, 0, 0.36);
+    height:1px;
+
+}
+
+.btn {
+    font-size: 1.2em
 }

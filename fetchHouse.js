@@ -52,4 +52,5 @@ function createMainTable(data) {
                 return selectedParty
             }
         }
-    })}
+    })
+}

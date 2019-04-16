@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TGIF Senate Party Attendance</title>
     <link rel="icon" href="Assets/noun_politics_150137.png">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div>
 
-        <div class=container>
-                        <div class="row">
+        <div class=container-fluid>
+            <div class="row ">
                 <div class="col-2"><img class="Logo" src="Assets/noun_politics_150137.png" alt="TGIF LOGO"></div>
-                <div class="col-8 py-4"><h1>T<small class="text-muted">ransparent</small>.G<small class="text-muted">overnment</small>.I<small class="text-muted">n</small>.F<small class="text-muted">act</small></h1></div>
-                <div class="col-2 p-2">
-                    <a href="mailto:info@tgif.net"><img class="mailIcon" src="Assets/mailicon.png" alt="mailicon">info@tgif.net</a>
+                <div class="col-8 py-4 text-center">
+                    <h1>T<small class="text-white">ransparent</small>.G<small class="text-white">overnment</small>.I<small class="text-white">n</small>.F<small class="text-white">act</small></h1>
+                </div>
+                <div class="col-2 d-flex flex-row-reverse">
+                    <a href="mailto:info@tgif.net"><img class="mailIcon m-3" src="Assets/mailicon.png" alt="mailicon">info@tgif.net</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-12 navbar">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                                 <li class="nav-item active">
-                                    <a href="index.html" class="btn btn-info" role="button">Home</a>
+                                    <a href="index.html" class="btn btn-secondary" role="button">Home</a>
                                 </li>
                                 <span>&emsp;</span>
                                 <li class="nav-item">
@@ -44,7 +46,7 @@
                                 <span>&emsp;</span>
                                 <li class="nav-item">
                                     <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Attendance
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -80,9 +82,9 @@
                 </div>
                 <div class="col-6 text-center">
                    <div class="text-right p-2">
-                    <h5 >Senate at a glance</h5>
+                    <h5 >Senate At A Glance</h5>
                     </div>
-                    <table class="table table-striped">
+                    <table class="table table-striped table-light">
                         <thead class="thead-dark">
                             <tr>
                                 <th>Party</th>
@@ -102,7 +104,7 @@
                    <div class="text-right p-2">
                     <h5>Least Engaged (Bottom 10% Attendance)</h5>
                     </div>
-                    <table class="table table-striped">
+                    <table class="table table-striped table-light">
                         <thead class="thead-dark">
                             <tr>
                                 <th>Name</th>
@@ -119,7 +121,7 @@
                    <div class="text-right p-2">
                     <h5>Most Engaged (Top 10% Attendance)</h5>
                     </div>
-                    <table class="table table-striped">
+                    <table class="table table-striped table-light">
                         <thead class="thead-dark">
                             <tr>
                                 <th>Name</th>

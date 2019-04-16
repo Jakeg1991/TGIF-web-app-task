@@ -18,10 +18,12 @@ function getStats(memberList) {
     partyVotesUpperPtile = 0
 
     function sumArray(a, b) {
-        return a + b;}
+        return a + b;
+    }
 
     function sortArray(a, b) {
-        return a - b;}
+        return a - b;
+    }
 
     for (i = 0; i < memberList.length; i++) {
         missedVotesPerc.push(memberList[i].missed_votes_pct)
